@@ -1,0 +1,24 @@
+.header{
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 105px;
+    display: flex;
+    width: 100%;
+    /* background:#c9e2e9; */
+}
+.header img {
+    width: 205px;
+    position: absolute;
+    left: 0;
+    top: -30px;
+}
+.header ul{
+    padding: 0;
+}
+.header li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px
+}
