@@ -1,0 +1,21 @@
+.textImg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+.light{
+    background: linear-gradient(#daffec 90%, #FFF);
+}
+.noLight{
+    background: linear-gradient(#FFF 90%, #daffec);
+}
+.textImg div{
+    width: 40%;
+}
+.back{
+    width: 30%;
+}
+.textImg .content p{
+    text-align: left;
+}
