@@ -1,18 +1,25 @@
-import {React, useState} from 'react'
+import {React} from 'react'
 import './App.css'
 import Header from './layouts/Header/Header'
 import Footer from './layouts/Footer/Footer'
-import BodyContent from './components/BodyContent/BodyContent'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nosotros from './pages/Nosotros/Nosotros'
+import BodyContent from './components/BodyContent/BodyContent';
+// import Contacto from './components/Contacto/Contacto';
 
 function App() {
 
   return (
     <>
-      <Header/>
-      <Nosotros/>
-      {/* <BodyContent/> */}
-      <Footer/>
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          <Route path="/" element={<BodyContent />} />
+          <Route path="/nosotros" element={<Nosotros />} />
+          {/* <Route path="/contacto" element={<Contacto />} /> */}
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
     </>
   )
 }
