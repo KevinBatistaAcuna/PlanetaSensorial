@@ -1,17 +1,18 @@
+import {React, useState} from 'react'
 import './App.css'
 import Header from './layouts/Header/Header'
 import Footer from './layouts/Footer/Footer'
 import BodyContent from './components/BodyContent/BodyContent'
-// import NavImg from './components/NavImgs/NavImg'
+import Nosotros from './pages/Nosotros/Nosotros'
 
 function App() {
 
   return (
     <>
-      <Header />
-      <BodyContent/>
+      <Header/>
+      <Nosotros/>
+      {/* <BodyContent/> */}
       <Footer/>
-      {/* <NavImg/> */}
     </>
   )
 }

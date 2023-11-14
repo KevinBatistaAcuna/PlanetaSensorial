@@ -1,0 +1,18 @@
+.textImg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+.light{
+    background: #daffec;
+}
+.textImg div{
+    width: 40%;
+}
+.back{
+    width: 30%;
+}
+.textImg .content p{
+    text-align: left;
+}

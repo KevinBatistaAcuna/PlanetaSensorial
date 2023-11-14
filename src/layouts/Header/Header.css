@@ -1,12 +1,12 @@
 .header{
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: relative;
     top: 0;
     height: 105px;
     display: flex;
     width: 100%;
-    /* background:#c9e2e9; */
+    background:#c9e2e9;
 }
 .header img {
     width: 205px;

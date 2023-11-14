@@ -1,8 +1,6 @@
 footer {
     justify-content: space-around;
     display: flex;
-    position: absolute;
-    bottom: 0;
     background: #c9e2e9;
     width: 100%;
 }
