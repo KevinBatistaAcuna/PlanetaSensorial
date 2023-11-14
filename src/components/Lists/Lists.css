@@ -1,7 +1,14 @@
 .listContent li{
     list-style: none;
 }
+.listComp{
+    padding: 20px 0;
+}
 
 .light{
-    background:#c9e2e9;
+    background: linear-gradient(#daffec 90%, #FFF);
+}
+
+.noLight{
+    background: linear-gradient(#FFF 90%, #daffec);
 }

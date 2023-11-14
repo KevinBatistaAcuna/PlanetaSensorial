@@ -5,7 +5,10 @@
     padding: 20px 0;
 }
 .light{
-    background: #daffec;
+    background: linear-gradient(#daffec 90%, #FFF);
+}
+.noLight{
+    background: linear-gradient(#FFF 90%, #daffec);
 }
 .textImg div{
     width: 40%;
