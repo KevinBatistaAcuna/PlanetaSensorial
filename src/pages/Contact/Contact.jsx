@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import ContactNumbers from '../../../components/ContactNumbers/ContactNumbers'
-import InputComps from '../../../components/Inputcomps/InputComps'
+import ContactNumbers from '../../components/ContactNumbers/ContactNumbers'
+import InputComps from '../../components/Inputcomps/InputComps'
 
 export default function Contact() {
     let [val, setVal] = useState();
