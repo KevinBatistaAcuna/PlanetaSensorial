@@ -1,22 +1,24 @@
-.listContent li{
-    list-style: none;
-}
 .listComp{
-    padding: 20px 0;
+    padding: 20px 0 40px 0;
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .textCont{
-    width: 60%;
+    width: 40%;
 }
 .light{
     background: linear-gradient(#daffec 90%, #FFF);
 }
-
+.listComp .textCont ul{
+    text-align: left;
+}
+.listComp .textCont ul li{
+    list-style: circle;
+}
 .noLight{
     background: linear-gradient(#FFF 90%, #daffec);
 }
 .back{
-    margin: auto;
     width: 30%;
 }

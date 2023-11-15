@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px 0 40px 0;
 }
 .light{
     background: linear-gradient(#daffec 90%, #FFF);
