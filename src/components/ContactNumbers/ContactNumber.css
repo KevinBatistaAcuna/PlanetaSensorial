@@ -1,0 +1,45 @@
+.sectionNums{
+    width: 500px;
+    color: #fff;
+    background: rgb(67, 98, 124);
+    padding: 20px;
+    position: absolute;
+    bottom: -250px;
+    left: -300px;
+    z-index: -1;
+    text-align: start;
+}
+.sectionNums__divContainer{
+    position: relative;
+    height: 620px;
+}
+.sectionNums__textContainer{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+.sectionNums__textContainer h2{
+    height: 33%;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.sectionNums .ubication{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.sectionNums .ubication iframe{
+    height: 200px;
+}
+.redesImages{
+    width: 40px;
+    margin: 5px;
+}
+.redesContainer{
+    display: flex;
+    margin-top: 0.82em;
+    height: 33%;
+}
+.textEmail{
+    height: 33%;
+}
