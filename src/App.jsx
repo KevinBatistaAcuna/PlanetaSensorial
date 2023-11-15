@@ -2,15 +2,17 @@ import {React, useState} from 'react'
 import './App.css'
 import Header from './layouts/Header/Header'
 import Footer from './layouts/Footer/Footer'
-import BodyContent from './components/BodyContent/BodyContent'
-import Nosotros from './pages/Nosotros/Nosotros'
+// import BodyContent from './components/BodyContent/BodyContent'
+// import Nosotros from './pages/Nosotros/Nosotros'
+import Contact from './pages/Nosotros/contact/Contact'
 
 function App() {
 
   return (
     <>
       <Header/>
-      <Nosotros/>
+      <Contact/>
+      {/* <Nosotros/> */}
       {/* <BodyContent/> */}
       <Footer/>
     </>
