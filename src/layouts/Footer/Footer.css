@@ -1,7 +1,7 @@
 footer {
     justify-content: space-around;
     display: flex;
-    background: #c9e2e9;
+    background: linear-gradient(0deg, rgba(201,226,233,1) 0%, rgba(201,226,233,1) 90%, rgba(255,255,255,1) 100%);
     width: 100%;
 }
 footer h2{

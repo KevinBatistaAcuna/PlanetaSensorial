@@ -1,11 +1,11 @@
 import React from 'react'
 import './Lists.css'
 
-export default function Lists({title, content, classSelected, img, orientationImg}) {
+export default function Lists({title, content, classSelected, img, orientationImg, borderRadius}) {
   return (
     
     <section className={`listComp ${classSelected}`}>
-    {orientationImg == 'left' && <img src={img} alt="Image" className='back'/>}
+    {orientationImg == 'left' && <img src={img} alt="Image" style={{borderRadius: borderRadius}} className='back'/>}
       <div className='textCont'>
         <h2>{title}</h2>
         <ul className='listContent'>
@@ -18,7 +18,7 @@ export default function Lists({title, content, classSelected, img, orientationIm
             })}
         </ul>
       </div>
-      {orientationImg == 'right' && <img src={img} alt="Image" className='back'/>}
+      {orientationImg == 'right' && <img src={img} alt="Image" style={{borderRadius: borderRadius}} className='back'/>}
     </section>
   )
 }

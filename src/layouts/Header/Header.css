@@ -6,7 +6,7 @@
     height: 105px;
     display: flex;
     width: 100%;
-    background:#c9e2e9;
+    background: linear-gradient(#c9e2e9 90%, #FFF);
 }
 .header img {
     width: 205px;
