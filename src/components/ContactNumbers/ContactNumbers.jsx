@@ -7,7 +7,7 @@ export default function ContactNumbers() {
       <div className='sectionNums__divContainer'>
           <div className='sectionNums__textContainer'>
             <h2>Contacto</h2>
-            <div>
+            <div className='textEmail'>
               <p>terapiaocupacional.tefy@gmail.com</p>
               <p>8318-5409</p>
             </div>
