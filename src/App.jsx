@@ -5,7 +5,7 @@ import Footer from './layouts/Footer/Footer'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nosotros from './pages/Nosotros/Nosotros'
 import BodyContent from './components/BodyContent/BodyContent';
-// import Contacto from './components/Contacto/Contacto';
+import Contacto from './pages/Contacto/Contacto';
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<BodyContent />} />
           <Route path="/nosotros" element={<Nosotros />} />
-          {/* <Route path="/contacto" element={<Contacto />} /> */}
+          <Route path="/contacto" element={<Contacto />} />
         </Routes>
         <Footer/>
       </BrowserRouter>

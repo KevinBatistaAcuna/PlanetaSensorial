@@ -1,0 +1,8 @@
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.inputContainer input{
+    height: 30px;
+}
