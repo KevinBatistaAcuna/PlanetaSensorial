@@ -1,7 +1,7 @@
 .contactBody__contactMessage{
     display: flex;
     justify-content: end;
-    margin: 60px 150px 400px 0px;
+    margin: 60px 150px 300px 0px;
 }
 .contactBody .sectionNums__formMessage{
     position: relative;

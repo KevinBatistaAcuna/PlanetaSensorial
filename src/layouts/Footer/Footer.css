@@ -1,18 +1,25 @@
 footer {
+    align-items: center;
     justify-content: space-around;
     display: flex;
     background: linear-gradient(0deg, rgba(201,226,233,1) 0%, rgba(201,226,233,1) 90%, rgba(255,255,255,1) 100%);
     width: 100%;
 }
-footer h2{
-    align-self: center;
-    margin: 0;
+footer p{
+    width: 50%;
 }
-footer nav ul{
+footer .imgContainer{
+    width: 25%;
+}
+footer nav{
+    align-items: center;
     display: flex;
-    padding: 0;
+    justify-content: center;
+    width: 25%;
 }
-footer nav ul li {
-    margin: 15px;
-    list-style: none;
+.logoImg{
+    width: 50%;
+}
+.redesImg{
+    width: 50px;
 }
