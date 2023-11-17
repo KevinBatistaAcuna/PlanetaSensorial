@@ -1,0 +1,16 @@
+.heroContainer{
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.heroContainer__sectionHero{
+    padding: 30px;
+    width: 50%;
+    background-color: #f0f8ff;
+    border-radius: 30% 70% 29% 71% / 45% 13% 87% 55%;
+}
+.heroContainer__sectionHero h2{
+    margin: 0;
+}
