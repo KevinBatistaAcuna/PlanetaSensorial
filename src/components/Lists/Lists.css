@@ -1,0 +1,24 @@
+.listComp{
+    padding: 20px 0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.textCont{
+    width: 40%;
+}
+.light{
+    background: linear-gradient(#daffec 90%, #FFF);
+}
+.listComp .textCont ul{
+    text-align: left;
+}
+.listComp .textCont ul li{
+    list-style: circle;
+}
+.noLight{
+    background: linear-gradient(#FFF 90%, #daffec);
+}
+.back{
+    width: 30%;
+}
