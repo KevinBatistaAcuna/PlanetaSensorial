@@ -4,9 +4,8 @@
     background: rgb(67, 98, 124);
     padding: 20px;
     position: absolute;
-    bottom: -250px;
-    left: -300px;
-    z-index: -1;
+    top: 755px;
+    left: 230px;
     text-align: start;
 }
 .sectionNums__divContainer{

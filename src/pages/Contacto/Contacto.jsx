@@ -17,8 +17,8 @@ export default function Contact() {
     <div className='contactBody'>
       <HeroComp image={img} title={'Contactenos'} text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sapiente? Ullam at nam harum dignissimos, ex consectetur alias eius officiis, fugit ad velit. Sed quo sit est aspernatur possimus sunt!'}/>
       <div className='contactBody__contactMessage'>
+      <ContactNumbers/>
         <section className='sectionNums__formMessage'>
-          <ContactNumbers/>
           <form>
             <InputComps labelText={'Nombre Completo :'} type={'text'} id={'nombreInp'} refInput={nombreRef}/>
             <InputComps labelText={'Correo :'} type={'email'} id={'emailInp'} refInput={emailRef}/>
