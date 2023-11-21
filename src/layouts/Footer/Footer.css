@@ -23,3 +23,12 @@ footer nav{
 .redesImg{
     width: 50px;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .logoImg{
+        width: 100%;
+    }
+    footer nav{
+        width: 40%;
+    }
+}

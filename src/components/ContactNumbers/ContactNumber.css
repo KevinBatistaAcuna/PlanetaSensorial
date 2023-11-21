@@ -42,3 +42,11 @@
 .textEmail{
     height: 33%;
 }
+
+@media only screen and (min-width: 340px) and (max-width: 768px) {
+    .sectionNums{
+        position: initial;
+        width: auto;
+    }
+
+}
