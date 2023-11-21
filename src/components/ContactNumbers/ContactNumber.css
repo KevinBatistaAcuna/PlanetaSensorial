@@ -43,10 +43,11 @@
     height: 33%;
 }
 
-@media only screen and (min-width: 340px) and (max-width: 768px) {
+@media only screen and (min-width: 340px) and (max-width: 1260px) {
     .sectionNums{
-        position: initial;
+        position: relative;
         width: auto;
+        left: 0;
+        top: 0;
     }
-
 }
