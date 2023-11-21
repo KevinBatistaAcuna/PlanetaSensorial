@@ -19,3 +19,12 @@
 .textImg .content p{
     text-align: left;
 }
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .textImg{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .textImg div{
+        width: 100%;
+    }
+}
