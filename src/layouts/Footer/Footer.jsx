@@ -11,7 +11,7 @@ function Footer() {
       <div className='imgContainer'>
         <img src={logo} alt="logo" className='logoImg'/>
       </div>
-      <p>© 2023 PlanetaSensorial. Todos los derechos reservados</p>
+      <p>© 2023 PlanetaSensorial.<br />Todos los derechos reservados</p>
       <nav>
         <a href="https://www.facebook.com/planetasensorialcr?mibextid=ZbWKwL" target='__blank'><img src={face} alt="" className='redesImg'/></a>
         <a href="https://instagram.com/planetasensorialcr?igshid=MTNiYzNiMzkwZA==" target='__blank'><img src={insta} alt="" className='redesImg'/></a>
