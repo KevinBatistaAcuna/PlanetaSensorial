@@ -15,10 +15,10 @@ const Header = () => {
         {window.screen.width < 770 && <img src={img} alt='menu' className='menuImg' onClick={()=> setVisibleNav(!visibleNav)}/>}
         <nav className={visibleNav ? 'visibleNav' : 'notVisibleNav'}>
           <ul>
-            <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/nosotros">Nosotros</Link></li>
-            <li><Link to="/contacto">Contacto</Link></li>
-            <li><Link to="/servicios">Servicios</Link></li>
+            <li onClick={()=> setVisibleNav(!visibleNav)}><Link to="/">Inicio</Link></li>
+            <li onClick={()=> setVisibleNav(!visibleNav)}><Link to="/nosotros">Nosotros</Link></li>
+            <li onClick={()=> setVisibleNav(!visibleNav)}><Link to="/contacto">Contacto</Link></li>
+            <li onClick={()=> setVisibleNav(!visibleNav)}><Link to="/servicios">Servicios</Link></li>
           </ul>
         </nav>
       </section>
