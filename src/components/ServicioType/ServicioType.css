@@ -1,0 +1,19 @@
+.servicioType__container{
+    display: flex;
+    margin: 30px 0;
+    padding: 20px;
+}
+.servicioType__image{
+    border-radius: 20% 40% 70% 10% / 70% 10% 29% 92%;
+    width: 30%;
+    margin: 20px;
+}
+.light{
+    background: linear-gradient(#daffec 90%, #FFF);
+}
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .servicioType__container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
