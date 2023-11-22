@@ -2,7 +2,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     display: flex;
-    background: linear-gradient(0deg, rgba(201,226,233,1) 0%, rgba(201,226,233,1) 90%, rgba(255,255,255,1) 100%);
+    background: #c9e2e9;
     width: 100%;
 }
 footer p{
@@ -22,4 +22,13 @@ footer nav{
 }
 .redesImg{
     width: 50px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .logoImg{
+        width: 100%;
+    }
+    footer nav{
+        width: 40%;
+    }
 }

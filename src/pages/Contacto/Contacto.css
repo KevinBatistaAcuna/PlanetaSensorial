@@ -9,3 +9,13 @@
     padding: 50px;
     width: 500px;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 1260px) {
+    .contactBody__contactMessage{
+        flex-direction: column;
+        margin: 0;
+    }
+    .contactBody .sectionNums__formMessage{
+        width: auto;
+    }
+}
