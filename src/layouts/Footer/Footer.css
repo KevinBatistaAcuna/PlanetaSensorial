@@ -25,10 +25,21 @@ footer nav{
 }
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
-    .logoImg{
+    footer{
+        flex-direction: column;
+    }
+    footer .imgContainer{
+        width: 50%;
+    }
+    footer .imgContainer .logoImg{
+        width: 100%;
+    }
+    footer p{
+        order: 2;
         width: 100%;
     }
     footer nav{
-        width: 40%;
+        width: 100%;
+        justify-content: space-evenly;
     }
 }
