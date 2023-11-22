@@ -8,7 +8,7 @@
     width: 100%;
     background:#c9e2e9 ;
 }
-.header img {
+.header .logoImg {
     width: 205px;
     position: absolute;
     left: 0;
@@ -23,13 +23,33 @@
     margin: 0 10px
 }
 @media only screen and (min-width: 360px) and (max-width: 768px) {
-	.header img {
+    .header{
+        justify-content: space-around;
+    }
+	.header .logoImg {
         position: relative;
         top: 0;
         width: 130px;
     }
+    .header .menuImg{
+        width: 40px;
+    }
+    .header .notVisibleNav{
+        display: none;
+    }
+    .header .visibleNav{
+        width: 100%;
+        display: block;
+        position: absolute;
+        right: 0;
+        background: #c9e2e9;
+        border-radius: 20px;
+    }
     .header ul{
         display: flex;
+        flex-direction: column;
     }
-
+    .header ul li{
+        margin: 10px;
+    }
 }

@@ -19,6 +19,9 @@ function App() {
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/servicios" element={<Servicios />} />
+          <Route path="/terapiaFisica" element={<Servicios />} />
+          <Route path="/terapiaOcupacional" element={<Servicios />} />
+          <Route path="/terapiaLenguaje" element={<Servicios />} />
         </Routes>
         <Footer/>
       </BrowserRouter>
