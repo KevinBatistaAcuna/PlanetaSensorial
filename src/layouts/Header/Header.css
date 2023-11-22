@@ -8,9 +8,6 @@
     width: 100%;
     background:#c9e2e9 ;
 }
-.header .navSection{
-    position: relative;
-}
 .header .logoImg {
     width: 205px;
     position: absolute;
