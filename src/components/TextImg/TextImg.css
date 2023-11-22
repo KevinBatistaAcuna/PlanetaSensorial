@@ -16,6 +16,9 @@
 .back{
     width: 30%;
 }
+.point{
+    cursor: pointer;
+}
 .textImg .content p{
     text-align: left;
 }
