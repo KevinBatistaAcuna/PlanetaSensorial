@@ -2,7 +2,8 @@ import {React, useState} from 'react'
 import logo from '../../assets/logo.png'
 import './Header.css'
 import { Link } from "react-router-dom";
-import img from '../../assets/Hamburger_icon.svg.png'
+import imgOpenMenu from '../../assets/Hamburger_icon.svg.png'
+import closeImg from '../../assets/close.png'
 
 const Header = () => {
   const [visibleNav, setVisibleNav] = useState(false)
@@ -12,7 +13,7 @@ const Header = () => {
         <img src={logo} alt="logo" className='logoImg'/>
       </Link>
       <section className='navSection'>
-        {window.screen.width < 770 && <img src={img} alt='menu' className='menuImg' onClick={()=> setVisibleNav(!visibleNav)}/>}
+        {window.screen.width < 770 && <img src={visibleNav ? closeImg : imgOpenMenu} alt='menu' className='menuImg' onClick={()=> setVisibleNav(!visibleNav)}/>}
         <nav className={visibleNav ? 'visibleNav' : 'notVisibleNav'}>
           <ul>
             <li onClick={()=> setVisibleNav(!visibleNav)}><Link to="/">Inicio</Link></li>
