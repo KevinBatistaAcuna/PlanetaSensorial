@@ -1,0 +1,13 @@
+.serviceInfoComp__sectionContainer{
+    display: flex;
+    margin: 30px;
+}
+.serviceInfoComp__divImgContainer{
+    width: 50%;
+}
+.serviceInfoComp__asideContainer{
+    width: 50%;
+}
+.serviceInfoComp__img{
+    width: 100%;
+}
