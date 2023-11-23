@@ -27,6 +27,10 @@
 	.listComp{
         flex-direction: column;
         padding: 20px;
+        overflow: hidden;
+    }
+    .listComp img{
+        width: 100vh;
     }
     .textCont{
         width: 100%;
